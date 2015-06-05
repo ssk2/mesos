@@ -26,7 +26,7 @@ config = {
     'namespace_packages': [ 'mesos' ],
     'packages': [ 'mesos', 'mesos.native' ],
     'package_dir': { '': 'src' },
-    'install_requires': [ 'mesos.interface == @PACKAGE_VERSION@' ],
+    'install_requires': [ 'mesos.interface >= @PACKAGE_VERSION@, < 22.2' ],
     'license': 'Apache 2.0',
     'keywords': 'mesos',
     'classifiers': [ ],
