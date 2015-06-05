@@ -16,7 +16,7 @@
 
 config = {
     'name': 'mesos.interface',
-    'version': '@PACKAGE_VERSION@',
+    'version': '@PACKAGE_VERSION@.2',
     'description': 'Mesos interfaces',
     'author': 'Apache Mesos',
     'author_email': 'dev@mesos.apache.org',
